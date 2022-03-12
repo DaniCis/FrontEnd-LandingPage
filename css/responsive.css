@@ -1,0 +1,64 @@
+@media(max-width:900px){
+    
+}
+@media(max-width:768px){
+   
+}
+@media (max-width:600px){
+    /*pricing*/
+    .site-price{
+        margin: 40px 50px;
+    }
+    .pricing-table{
+        grid-template-columns: 1fr;
+    }
+    .price-table {
+        margin-bottom: 40px;
+    }
+    /*contact*/
+    .contact-header{
+        padding: 60px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-header div{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .contact-form{
+        left: 0;
+        margin-top: 495px;
+    }
+    .contact-form img{
+      display: none;
+    }
+    .form{
+        padding: 30px 30px;
+    }
+    .separador{
+        height: 400px;
+    } 
+    /*footer*/
+    .site-footer{
+        margin: 20px 90px;  
+    }
+    .footer-1,.footer-3{
+        flex-direction: column;
+    }
+    .footer-1 a{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .footer-2{
+        margin: 40px 25px;
+        grid-template-columns: 1fr;
+    }
+    .footer-2 div{
+        margin-bottom: 20px;
+    }
+    .footer-icons{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
