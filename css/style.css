@@ -8,6 +8,9 @@
     --btn-color: rgb(34, 143, 177);
     --font-gray: rgb(107, 107, 107);
     --back-contact: #252B42;
+    --price-card:rgb(45, 214, 236);
+    --price-color:rgb(19, 6, 141);
+    --price-title:rgb(63, 162, 187);
 }
 .site-hero{
     background-image: url(https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -27,11 +30,94 @@
     left: 0px;
     background-color: rgba(0, 0, 0, 0.35);
 }
-/* Pricing Section*/
 
 
+/********   Pricing Section    *******/
+.site-price{
+    margin: 60px 150px;
+}
+.price-header{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.price-header p{
+    margin-top: 10px;
+}
+.pricing-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.price-table {
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+    margin: 0 10px;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+}
+.price-table:hover {
+    border: 2px solid var(--price-card);
+    margin-top: -30px;
+}
+.price-title{
+    padding: 30px 10px;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--price-title);
+}
+.price-title span{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.price-price{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.price-sub{
+    margin-top: 10px;
+    display: block;
+}
+.price-value{
+    color: var(--price-color);
+    font-weight: 900;
+    font-size: 36px;
+    display: block;
+}
+.price-content ul{
+    list-style: none;
+}
+.price-content ul li{
+    padding: 10px 0;
+}
+.price-content input{
+    height: 20px;
+    width: 20px;
+}
+.price-content label{
+    padding-left: 10px;
+}
+.price-btn{
+    padding: 30px 0;
+}
+.price-a{
+    text-decoration: none;
+    width: 50%;
+    background: var(--btn-color);
+    border: 1px solid transparent;
+    padding: 8px 50px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.price-table:hover .price-a {
+    background: #fff;
+    color: var(--btn-color);
+    border: 2px solid var(--btn-color);
+}
+  
 
-/* Contact Section*/
+/*********   Contact Section   **********/
 .site-contact{
     background-color: var(--back-contact);
     display: flex;
@@ -59,7 +145,7 @@
   /*  position: absolute;
    left: 260px;
    clip: rect(0, 400px, 500px, 80px); */
-   width: 450px;
+   width: 500px;
    height: 350px;   
 }
 .form{
@@ -100,8 +186,7 @@
 }
 
 
-
-/* Footer Section*/
+/*******  Footer Section  ********/
 .site-footer{
     margin: 20px 250px 25px 200px;  
 }
