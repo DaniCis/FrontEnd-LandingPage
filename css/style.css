@@ -11,6 +11,7 @@
     --price-card:rgb(45, 214, 236);
     --price-color:rgb(19, 6, 141);
     --price-title:rgb(63, 162, 187);
+    --price-check: rgb(65, 185, 65);
 }
 .site-hero{
     background-image: url(https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -42,6 +43,7 @@
 }
 .price-header p{
     margin-top: 10px;
+    color: var(--font-gray);
 }
 .pricing-table{
     display: grid;
@@ -60,7 +62,7 @@
     margin-top: -30px;
 }
 .price-title{
-    padding: 30px 10px;
+    padding: 25px 10px;
     border-radius: 5px 5px 0 0;
     background-color: var(--price-title);
 }
@@ -76,6 +78,7 @@
 .price-sub{
     margin-top: 10px;
     display: block;
+    color: var(--font-gray)
 }
 .price-value{
     color: var(--price-color);
@@ -87,14 +90,14 @@
     list-style: none;
 }
 .price-content ul li{
-    padding: 10px 0;
+    padding: 8px 50px;
+    display: flex;
+    text-align: left;
 }
-.price-content input{
-    height: 20px;
-    width: 20px;
-}
-.price-content label{
-    padding-left: 10px;
+.price-content i{
+    margin-right: 15px;
+    color: var(--price-check);
+    font-size: 20px;
 }
 .price-btn{
     padding: 30px 0;
@@ -126,6 +129,10 @@
 .contact-header{
     display: flex;
     padding: 70px 240px 240px 200px;
+    color: white;
+}
+.contact-header p{
+    margin-top: 15px;
 }
 .contact-header div{
     margin-right: 160px;
@@ -138,18 +145,21 @@
     background-color: white;
     display: flex;
     position: absolute;
-    left: 300px;
+    left: 410px;
     margin-top: 260px;
 }
 .contact-form img{
   /*  position: absolute;
    left: 260px;
    clip: rect(0, 400px, 500px, 80px); */
-   width: 500px;
-   height: 350px;   
+   width: 270px;
+   height: 430px;   
+}
+.separador{
+    height: 300px;
 }
 .form{
-    padding: 20px 40px 50px 0px;
+    padding: 50px 60px 50px 0px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -161,8 +171,8 @@
     text-align: center;
 }
 .form-btn{
-    padding: 5px 75px;
-    margin-left: 130px;
+    padding: 5px 110px;
+    margin-left: 90px;
     border-radius: 5px;
     background-color: var(--btn-color);
     text-decoration: none;
@@ -178,11 +188,9 @@
 .form-input input{
     border-radius: 5px;
     width: 260px;
-    height: 24px;
-    border: 1px solid gray;
-}
-.separador{
-    height: 230px;
+    height: 26px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(192, 192, 192);
 }
 
 
