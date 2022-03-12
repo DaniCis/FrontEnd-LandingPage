@@ -39,27 +39,40 @@
 }
 .contact-header{
     display: flex;
-    padding: 50px 300px 35px 220px;
+    padding: 70px 240px 240px 200px;
 }
 .contact-header div{
     margin-right: 160px;
 }
 .contact-header img{
-    height: 130px;
+    height: 140px;
 }
 .contact-form{
+   /*  margin: 0px 350px 0px 660px; */
     background-color: white;
-    margin: 0px 350px 0px 660px;
+    display: flex;
+    position: absolute;
+    left: 300px;
+    margin-top: 260px;
 }
 .contact-form img{
-   position: absolute;
+  /*  position: absolute;
    left: 260px;
-   clip: rect(0, 400px, 500px, 80px);
+   clip: rect(0, 400px, 500px, 80px); */
+   width: 450px;
+   height: 350px;   
 }
-.form h4{
-    padding-left: 120px;
+.form{
+    padding: 20px 40px 50px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form h3{
     margin-top: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 .form-btn{
     padding: 5px 75px;
@@ -71,23 +84,26 @@
     font-size: 13px;
 }
 .form-input{
-    padding: 0px 100px 10px 90px;
+    padding: 0px 60px 10px 90px;
 }
 .form label{
     font-size: 14px;
 }
 .form-input input{
     border-radius: 5px;
-    width: 275px;
+    width: 260px;
     height: 24px;
     border: 1px solid gray;
+}
+.separador{
+    height: 230px;
 }
 
 
 
 /* Footer Section*/
 .site-footer{
-    margin: 120px 250px 25px 200px;  
+    margin: 20px 250px 25px 200px;  
 }
 .site-footer i{
     color: var(--btn-color);
