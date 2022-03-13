@@ -143,7 +143,8 @@
     background-color: white;
     display: flex;
     position: absolute;
-    left: 410px;
+    left: 390px;
+    right: 350px;
     margin-top: 260px;
 }
 .contact-form img{
@@ -151,7 +152,7 @@
    height: 430px;   
 }
 .separador{
-    height: 300px;
+    height: 290px;
 }
 .form{
     padding: 50px 60px 50px 0px;

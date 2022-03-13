@@ -1,9 +1,23 @@
 @media(max-width: 1200px){
+    .site-price{
+        margin: 50px 90px;
+    }
     .pricing-table{
         grid-template-columns: 1fr 1fr 1fr;
+    } 
+    .contact-header{
+        padding: 50px 110px 170px;
+    }
+    .contact-form{
+        left: 130px;
+        right: 180px;
+        margin-top: 270px;
+    }
+    .separador{
+        height: 360px;
     }
 }
-@media(max-width: 992px){
+@media(max-width: 900px){
     .site-price{
         margin: 40px 100px 25px;
     }
@@ -17,7 +31,8 @@
         padding: 50px 100px 190px;
     }
     .contact-form{
-        left: 130px;
+        left: 40px;
+        right: 40px;
         margin-top: 270px;
     }
     .separador{
@@ -25,6 +40,13 @@
     }
     .site-footer{
         margin: 20px 90px;  
+    }
+}
+@media(min-width:768px) and (max-width:800px){
+    .contact-form{
+        left: 0px;
+        right: 0px;
+        margin-top:380px;
     }
 }
 @media(max-width:768px){
@@ -45,7 +67,17 @@
     }
     .contact-form{
         left: 0;
+        right: 0;
         margin-top: 442px;
+    }
+    .form{
+        padding: 50px 0px;
+    }
+    .form-input{
+        padding: 0px 60px 10px 50px;
+    }
+    .form-btn{
+        margin-left: 50px;
     }
     .separador{
         height: 470px;
@@ -94,6 +126,12 @@
     }
     .form{
         padding: 30px 30px;
+    }
+    .form-input{
+        padding: 0px 60px 10px 90px;
+    }
+    .form-btn{
+        margin-left: 90px;
     }
     .separador{
         height: 400px;
