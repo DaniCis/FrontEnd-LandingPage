@@ -1,11 +1,30 @@
 @media(max-width: 1200px){
     .pricing-table{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media(max-width: 992px){
+    .site-price{
+        margin: 40px 100px 25px;
+    }
     .pricing-table{
         grid-template-columns: 1fr 1fr;
+    }
+    .price-table {
+        margin-bottom: 40px;
+    }
+    .contact-header{
+        padding: 50px 100px 190px;
+    }
+    .contact-form{
+        left: 130px;
+        margin-top: 270px;
+    }
+    .separador{
+        height: 320px;
+    }
+    .site-footer{
+        margin: 20px 90px;  
     }
 }
 @media(max-width:768px){
@@ -14,9 +33,6 @@
     }
     .pricing-table{
         grid-template-columns: 1fr;
-    }
-    .price-table {
-        margin-bottom: 40px;
     }
     .contact-header{
         padding: 50px 80px;
