@@ -1,13 +1,16 @@
-@media(max-width:900px){
-    
+@media(max-width: 1200px){
+    .pricing-table{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width: 992px){
+    .pricing-table{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 @media(max-width:768px){
-   
-}
-@media (max-width:600px){
-    /*pricing*/
     .site-price{
-        margin: 40px 50px;
+        margin: 40px 90px;
     }
     .pricing-table{
         grid-template-columns: 1fr;
@@ -15,18 +18,59 @@
     .price-table {
         margin-bottom: 40px;
     }
-    /*contact*/
     .contact-header{
-        padding: 60px 50px;
+        padding: 50px 80px;
         display: flex;
         flex-direction: column;
     }
     .contact-header div{
         margin-right: 0;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
     .contact-form{
         left: 0;
+        margin-top: 442px;
+    }
+    .separador{
+        height: 470px;
+    }
+    .site-footer{
+        margin: 20px 130px;  
+    }
+    .footer-1,.footer-3{
+        flex-direction: column;
+    }
+    .footer-1 a{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .footer-2{
+        margin: 40px 35px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-2 div{
+        margin-bottom: 15px;
+    }
+    .footer-3{
+        text-align: center;
+    }
+    .footer-icons{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width:600px){
+    .site-price{
+        margin: 40px 50px;
+    }
+    .contact-header{
+        padding: 60px 50px;
+    }
+    .contact-header div{
+        margin-bottom: 50px;
+    }
+    .contact-form{
         margin-top: 495px;
     }
     .contact-form img{
@@ -37,17 +81,9 @@
     }
     .separador{
         height: 400px;
-    } 
-    /*footer*/
+    }
     .site-footer{
         margin: 20px 90px;  
-    }
-    .footer-1,.footer-3{
-        flex-direction: column;
-    }
-    .footer-1 a{
-        text-align: center;
-        margin-top: 15px;
     }
     .footer-2{
         margin: 40px 25px;
@@ -56,9 +92,7 @@
     .footer-2 div{
         margin-bottom: 20px;
     }
-    .footer-icons{
-        margin-top: 15px;
-        display: flex;
-        justify-content: space-evenly;
+    .footer-3{
+        text-align: left;
     }
 }
