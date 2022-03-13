@@ -32,7 +32,6 @@
     background-color: rgba(0, 0, 0, 0.35);
 }
 
-
 /********   Pricing Section    *******/
 .site-price{
     margin: 60px 150px;
@@ -118,7 +117,6 @@
     color: var(--btn-color);
     border: 2px solid var(--btn-color);
 }
-  
 
 /*********   Contact Section   **********/
 .site-contact{
@@ -193,7 +191,6 @@
     background-color: rgb(231, 231, 231);
     border: 1px solid rgb(192, 192, 192);
 }
-
 
 /*******  Footer Section  ********/
 .site-footer{
