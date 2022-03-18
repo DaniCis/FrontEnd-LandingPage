@@ -13,14 +13,15 @@
     --price-title:rgb(63, 162, 187);
     --price-check: rgb(65, 185, 65);
 }
+
+/***     HERO SECTION    *****/
 .site-hero{
     background-image: url(https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height: 35rem;
+    height: 33rem;
     position: relative;
-    display: flex;
 }
 .site-hero::before {
     content: "";
@@ -29,8 +30,133 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.45);
 }
+.site-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 25px;
+    position: relative;
+}
+.site-nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav-2 a{
+    margin-left: 25px;
+}
+.btn-comenzar{
+    margin-left: 20px;
+    background-color: var(--price-check);
+    padding: 12px 25px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.btn-comenzar:hover,.btn-ins:hover{
+    background-color: rgb(63, 155, 63);
+}
+.site-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    line-height: 3rem;
+    margin-top: 130px;
+    color: white;
+}
+.site-title h1{
+    width:40%;
+}
+.site-title p{
+    margin-bottom: 15px;
+}
+.btn{
+    margin: 0 10px;
+    padding: 8px 25px;
+    height: 20px;
+    border-radius: 8px;
+}
+.btn-ins{
+    background-color: var(--price-check);
+}
+.btn-ver{
+    border: 1px solid white;
+}
+
+/*****    Testimonials   *****/
+.card{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+}
+.card img {
+    max-width: 100%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+}
+.card blockquote {
+    margin: 0;
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color:rgb(231, 231, 231);
+    padding: 30px 50px 65px 50px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0 0 -50px;
+    line-height: 1.6em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.card blockquote:before,
+.card blockquote:after {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+    font-style: normal;
+}
+.card blockquote:before {
+    top: 35px;
+    left: 20px;
+}
+.card blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 35px;
+}
+.card .author {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1d1c1c;
+}
+.card .author h5 {
+    opacity: 0.8;
+    margin: 0;
+    font-weight: 800;
+}
+.card .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+}
+
+
 
 /********   Pricing Section    *******/
 .site-price{
@@ -47,6 +173,7 @@
 .pricing-table{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 .price-table {
     border: 1px solid #dbdbdb;
@@ -194,7 +321,7 @@
 .boton-up{
     width: 50px;
     height: 50px;
-    background: var(--btn-color);
+    background: var(--price-check);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,6 +385,9 @@
     margin: 5px 0;
     font-size: 12px;
     color: var(--font-gray);
+}
+.footer-2 p:hover{
+    font-weight: bold;
 }
 .footer-3{
     display: flex;
