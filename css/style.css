@@ -100,13 +100,17 @@
     text-align: left;
 }
 .card img {
-    max-width: 100%;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     display: inline-block;
     position: relative;
+}
+.card img:hover{
+    height: 120px;
+    width: 120px;
+    margin-bottom: 0px;
 }
 .card blockquote {
     margin: 0;
@@ -139,18 +143,18 @@
     right: 20px;
     bottom: 35px;
 }
-.card .author {
+.author {
     margin: 0;
     text-transform: uppercase;
     text-align: center;
     color: #1d1c1c;
 }
-.card .author h5 {
+.author h5 {
     opacity: 0.8;
     margin: 0;
     font-weight: 800;
 }
-.card .author h5 span {
+.author h5 span {
     font-weight: 400;
     text-transform: none;
     display: block;
