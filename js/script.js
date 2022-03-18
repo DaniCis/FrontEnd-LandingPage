@@ -9,8 +9,8 @@ function scrollUp(){
 }
 window.onscroll = function(){
     var scroll = document.documentElement.scrollTop;
-    if (scroll > 500)
+    if (scroll > 250)
         btn.style.transform = "scale(1)";
-    else if(scroll < 500)
+    else if(scroll < 250)
         btn.style.transform = "scale(0)";
 }
