@@ -1,12 +1,9 @@
-@media(min-width:1200px){
+@media(min-width:800px){
     .menu i{
         display: none;
     }
 }
 @media(max-width: 1200px){
-    .menu i {
-        display: none;
-    }
     .site-price{
         margin: 50px 90px;
     }
@@ -34,9 +31,6 @@
     }
 }
 @media(max-width: 900px){
-    .menu i {
-        display: none;
-    }
     .site-title{
         margin-top: 80px;
     }

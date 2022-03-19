@@ -46,6 +46,9 @@
 .nav-2 a{
     margin-left: 25px;
 }
+.nav-2 a:hover{
+    color:var(--price-check)
+}
 .btn-comenzar{
     margin-left: 20px;
     background-color: var(--price-check);
